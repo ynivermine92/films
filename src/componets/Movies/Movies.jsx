@@ -10,7 +10,7 @@ const Movies = ({ value }) => {
   const fetchData = useCallback(async () => {
     try {
       const response = await axios.get(
-        `http://www.omdbapi.com/?s=${value}&apikey=${apiKey}`
+        `https://www.omdbapi.com/?s=${value}&apikey=${apiKey}`
       );
 
       setMovieData(response.data);
