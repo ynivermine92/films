@@ -1,0 +1,29 @@
+.header {
+    padding: 50px 0;
+  &__search {
+    padding: 0 40px !important;
+  }
+  &__wrapper {
+    display: flex;
+    justify-content: center;
+  }
+  &__search{
+    max-width: 900px;
+    width: 100%;
+  }
+}
+.progress__title{
+    text-align: center;
+    font-size: 20px;
+  }
+  
+@media (max-width: 1550px) {
+  .header__search {
+    max-width: 500px;
+  }
+}
+@media (max-width: 767px) {
+    .header__search {
+      max-width: 200px;
+    }
+  }
